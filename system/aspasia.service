@@ -1,0 +1,12 @@
+# /etc/systemd/system/script-executor.service
+
+[Unit]
+Description=Script Executor
+
+[Service]
+ExecStart=/usr/local/sbin/aspasia.sh
+iRestart=always
+
+[Install]
+WantedBy=multi-user.target
+
