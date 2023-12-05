@@ -1,0 +1,22 @@
+<module>
+	<rawname>aspasia</rawname>
+	<repo>admin</repo>
+	<name>Task Runner</name>
+	<version>15.0.1</version>
+	<category>Admin</category>
+	<Publisher>James Finstrom</Publisher>
+	<licence>GPL</licence>
+	<licenselink>https://www.gnu.org/licenses/gpl-2.0.txt</licenselink>
+	<menuitems>
+		<aspasia>Tasks</aspasaia>
+	</menuitems>
+	<depends>
+		<version>15</version>
+	</depends>
+	<supported>15.0</supported>
+	
+	<description>Task runner for FreePBX</description>
+	<changelog>
+		*15.0.1* Initial Dev Release
+	</changelog>
+</module>
